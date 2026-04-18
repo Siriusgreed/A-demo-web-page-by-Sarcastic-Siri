@@ -1,4 +1,11 @@
 /* styles.css */
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(139, 188, 235);
 }
@@ -7,6 +14,7 @@ h1 {
     background-color: rgb(14, 106, 192); 
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
+    font-size:30px ;
 }
 .para1 {color: rgb(8, 143, 64)}
 .colored {color: #ad1d1d;}
@@ -14,4 +22,22 @@ h1 {
 .line1 {margin-bottom: 5px; color:aquamarine;}
 .line2 {margin-bottom: 10px; color:blue;}
 .line3 {margin-bottom: 15px;}
-.moja {color: #d35050;}
+.types {margin-bottom: 20px; 
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+}
+.moja {color: #d35050;
+    font-family:
+}
+#Yes {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 20px;
+    color:rgb(4, 131, 15)
+}
+#No {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 20px;
+    color:#ad1d1d
+}
