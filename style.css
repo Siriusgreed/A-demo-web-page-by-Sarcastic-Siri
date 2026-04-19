@@ -1,5 +1,4 @@
 /* styles.css */
-/* styles.css */
 @font-face {
     font-family: 'Lobster';
     src: url('fonts/Lobster-Regular.ttf') format('truetype');
@@ -34,7 +33,6 @@ h1 {
     background-image: url(images/cloud.webp); 
     width:700px;
     height:100px;
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
