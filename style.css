@@ -31,6 +31,7 @@ h1 {
     font-family: 'Lobster';
     font-size: 30px;
     background-image: url(images/cloud.webp); 
+       border:solid cornflowerblue; border-radius: 20px;
     width:700px;
     height:100px;
     background-repeat: no-repeat;
