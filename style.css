@@ -58,17 +58,17 @@ h1 {
     font-size: 20px;
     color:#ad1d1d
 }
- #password {
+#password {
     font-family: 'Courier New', Courier, monospace;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 20px;
     color:#ad1d1d
 }
 .email {
     font-family: 'Courier New', Courier, monospace;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 20px;
-    color:rgb(4, 131, 15)
+    color: rgb(4, 131, 15)
 }   
 .plane-image {
     width:300px;
