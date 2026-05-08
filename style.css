@@ -60,32 +60,45 @@ h1 {
 }
 #password {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-weight:bolder;
     font-size: 20px;
     color:#ad1d1d
 }
 .email {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-weight:bolder;
     font-size: 20px;
-    color: rgb(4, 131, 15)
+    color:rgb(4, 131, 15)
+}   
+#password-btn, #email-btn {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:rgb(77, 4, 80)
 }   
 .plane-image {
     width:300px;
     border:solid cornflowerblue;
     border-radius: 20px;
-    padding: 20px 20px 20px 20px 
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
 }
 .plane-image1 {
     width:100px;
     border:solid cornflowerblue;
     border-radius: 20px;
-    padding: 20px 20px 20px 20px 
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px; 
+    margin-top: 20px;
 }
 .plane-image2 {
     width: calc(100% + 40px);  /* Extend past padding */
     margin-left: -20px;         /* Pull left to edge */
     margin-right: -20px;        /* Pull right to edge */
+    margin-top: 20px;
 }
 
 /*up right bottom left (clockwise)*/
