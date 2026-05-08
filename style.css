@@ -8,7 +8,11 @@
 
 body {
     background-color: rgb(139, 188, 235);
+    margin: 0;      /* ← ADD THIS */
+    padding: 20px;  /* All content gets spacing */
 }
+
+
 h1 {
     color: rgb(255, 255, 255); 
     background-color: rgb(14, 106, 192); 
@@ -54,9 +58,34 @@ h1 {
     font-size: 20px;
     color:#ad1d1d
 }
+ #password {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 20px;
+    color:#ad1d1d
+}
+.email {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 20px;
+    color:#ad1d1d
+}   
 .plane-image {
     width:300px;
     border:solid cornflowerblue;
     border-radius: 20px;
     padding: 20px 20px 20px 20px 
 }
+.plane-image1 {
+    width:100px;
+    border:solid cornflowerblue;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px 
+}
+.plane-image2 {
+    width: calc(100% + 40px);  /* Extend past padding */
+    margin-left: -20px;         /* Pull left to edge */
+    margin-right: -20px;        /* Pull right to edge */
+}
+
+/*up right bottom left (clockwise)*/
